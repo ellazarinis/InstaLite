@@ -1,0 +1,15 @@
+{
+    "CHROMA_CLIENT_PORT": "8000",
+    "CHROMA_DB_FOLDER_NAME": "chroma_db",
+    "CHROMA_DB_PATH": "chroma_db/",
+    "AWS_REGION": "us-east-1",
+    "CSV_FILE_PATH": "input/actor_embeddings.csv",
+    "S3_BUCKET_NAME": "imdb-embeddings",
+    "S3_BUCKET_NAME_USERS": "imdb-users-profile-pics",
+    "S3_BUCKET_POSTS": "instalite-posts-g10",
+    "DYNAMO_TABLE_NAME": "imdb-data",
+    "CHROMA_DB_NAME": "imdb-photos",
+    "CHROMA_BUCKET_NAME": "imdb-chroma",
+    "SPARK_APP_NAME": "ImageIndexingApp"
+}
+  

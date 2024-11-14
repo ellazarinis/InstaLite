@@ -1,0 +1,170 @@
+{
+  
+  "name": "project-kala",
+  
+  "version": "1.0.0",
+  
+  "description": "",
+  
+  "main": "app.js",
+  
+  "scripts": {
+  
+    
+  "start": "node --experimental-vm-modules app.js",
+  
+    
+  "create_tables": "node models/create_tables.js",
+  
+    
+  "chatServer": "node ./chatServer.js",
+  
+    
+  "chroma": "node --experimental-vm-modules models/chroma_access.js",
+  
+    
+  "index": "node --experimental-vm-modules index_data.js",
+  
+    
+  "test": "node --experimental-vm-modules node_modules/.bin/jest --outputFile=test_results.json --json"
+  
+  },
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "@aws-sdk/client-s3": "^3.564.0",
+  
+    
+  "@aws-sdk/credential-provider-ini": "^3.564.0",
+  
+    
+  "@langchain/community": "^0.0.55",
+  
+    
+  "@langchain/openai": "^0.0.14",
+  
+    
+  "@tensorflow/tfjs-node": "^4.19.0",
+  
+    
+  "@vladmandic/face-api": "^1.7.13",
+  
+    
+  "autoprefixer": "^10.4.19",
+  
+    
+  "aws-s3": "^2.0.5",
+  
+    
+  "aws-sdk": "^2.1608.0",
+  
+    
+  "axios": "^0.28.1",
+  
+    
+  "bcrypt": "^5.0.1",
+  
+    
+  "cheerio": "^1.0.0-rc.12",
+  
+    
+  "chroma": "^0.0.1",
+  
+    
+  "chromadb": "^1.5.6",
+  
+    
+  "circular-json": "^0.5.9",
+  
+    
+  "cookie-parser": "^1.4.6",
+  
+    
+  "cors": "^2.8.5",
+  
+    
+  "dotenv": "^16.4.5",
+  
+    
+  "express": "^4.19.2",
+  
+    
+  "express-session": "^1.17.3",
+  
+    
+  "fs": "^0.0.1-security",
+  
+    
+  "js-cookie": "^3.0.5",
+  
+    
+  "langchain": "^0.1.36",
+  
+    
+  "multer": "^1.4.4",
+  
+    
+  "multer-s3": "^2.10.0",
+  
+    
+  "mysql": "^2.18.1",
+  
+    
+  "mysql2": "^3.9.6",
+  
+    
+  "nodemailer": "^6.9.13",
+  
+    
+  "nodemon": "^3.0.3",
+  
+    
+  "openai": "^4.42.0",
+  
+    
+  "pkg-config": "^1.1.1",
+  
+    
+  "process": "^0.11.10",
+  
+    
+  "puny": "^2.0.2",
+  
+    
+  "react": "^18.2.0",
+  
+    
+  "react-infinite-scroll-component": "^6.1.0",
+  
+    
+  "react-router-dom": "^6.22.3",
+  
+    
+  "s3": "^4.4.0",
+  
+    
+  "s3client": "^0.1.1",
+  
+    
+  "socket.io": "^4.7.5",
+  
+    
+  "split": "^1.0.1"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "@types/react": "^18.2.74",
+  
+    
+  "jest": "^29.7.0"
+  
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "kafka-app",
+    "version": "1.0.0",
+    "description": "A basic Express.js application",
+    "main": "app.js",
+    "scripts": {
+        "leftist": "node app.js"
+    },
+    "keywords": [
+        "express"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "kafkajs": "2.2.4",
+        "kafkajs-snappy": "^1.1.0"
+    }
+}
